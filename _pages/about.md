@@ -2,15 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://vetmedbiosci.colostate.edu/vth/'>Colorado State University</a> 
+    <p>300 W Drake Rd</p>
+    <p>Fort Collins, CO 80523</p>
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>300 W Drake Rd</p>
-    <p>Fort Collins, CO 80523</p>
+  image_circular: true # crops the image to make it circular
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts

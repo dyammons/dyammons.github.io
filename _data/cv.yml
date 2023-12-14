@@ -20,16 +20,17 @@
       description:
         - Cancer immunology
         - Bioinformatics
-        - title: Test
-          contents:
-            - Testing this level
     - title: B.S. 
       institution: Ursinus College
       year: 2017
       description:
-        - Biochemistry and molecular biology
-        - Neuroscience
-        - Minor in Biostatistics
+        - title: Majors
+          contents:
+            - Biochemistry and molecular biology
+            - Neuroscience
+        - title: Minor
+          contents:
+            - Biostatistics
 
 - title: Experience
   type: time_table
@@ -38,12 +39,11 @@
       institution: Colorado State University
       year: 2023 - 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Contribute to study design, sample processing, and Illumina library preparation
+        - Analyze and interpret single-cell RNA sequencing, bulk-RNA sequencing, and NanoString data
+        - Give formal and informal presentations of results throughout study progression
+        - Develop and maintain bioinformatic analysis pipelines
+        - Prepare formal scientific write-ups of findings
 
 - title: Honors and Awards
   type: time_table
@@ -55,12 +55,12 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: transcriptomics
+    - title: Transcriptomics
       items: 
         - single-cell RNA sequencing
-    - title: immunology
+    - title: Immunology
       items:
-        - Canine cancer immunology
+        - canine cancer immunology
 
 - title: Other Interests
   type: list
