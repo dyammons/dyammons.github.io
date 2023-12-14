@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - dyammons
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - dyammons/Canine_Leukocyte_scRNA
+  - dyammons/canine_osteosarcoma_atlas
+  - dyammons/scrna-seq
+  - dyammons/scrna-scripts
+  - dyammons/bulk-rna-seq
+  - dyammons/r-env
