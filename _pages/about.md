@@ -3,13 +3,11 @@ layout: about
 title: about
 permalink: /
 subtitle: <a href='https://vetmedbiosci.colostate.edu/vth/'>Colorado State University</a> 
-    <p>300 W Drake Rd</p>
-    <p>Fort Collins, CO 80523</p>
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -18,3 +16,5 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 Veterinary medical scientist with interests in applying next generation sequencing approaches to advance animal and human health. Trained in the context of canine cancer immunology and single-cell RNA sequencing, but always looking to expand my knowledge base across technologies and species. 
+
+My training in medicine and computational biology makes me uniquely positioned to apply bioinformatic appraoches while keep in mind th clinical/biological relevace of the analysis. I have applied my skillset across a variety of 
