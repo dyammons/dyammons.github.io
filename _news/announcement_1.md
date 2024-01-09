@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Preliminary exam :check
+Preliminary exam :heavy_check_mark:

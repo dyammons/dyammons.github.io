@@ -2,19 +2,18 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Some highlighted GitHub repos and stats. Check out the Canine_Leukocyte_scRNA repository!
+description: Check out the Canine_Leukocyte_scRNA repository!
 nav: true
 nav_order: 3
 ---
 
-## GitHub users
-
-{% if site.data.repositories.github_users %}
+{% if site.data.repositories.github_repos %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.html username=user %}
+  {% for repo in site.data.repositories.github_repos %}
+    {% include repository/repo.html repository=repo %}
   {% endfor %}
 </div>
+{% endif %}
 
 ---
 
@@ -31,14 +30,4 @@ nav_order: 3
 
 {% endfor %}
 {% endif %}
-{% endif %}
-
-## GitHub Repositories
-
-{% if site.data.repositories.github_repos %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.html repository=repo %}
-  {% endfor %}
-</div>
 {% endif %}
